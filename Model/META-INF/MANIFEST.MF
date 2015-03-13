@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Model
+Bundle-SymbolicName: Model
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.bdwashbu.cat.crack,
+ com.bdwashbu.cat.crack.fms,
+ com.bdwashbu.cat.model
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ClassPath: bin/,
+ .
+Require-Bundle: org.scala-ide.scala.library;bundle-version="2.10.1"
